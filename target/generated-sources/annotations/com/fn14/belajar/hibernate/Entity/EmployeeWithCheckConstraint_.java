@@ -1,5 +1,6 @@
 package com.fn14.belajar.hibernate.Entity;
 
+import com.fn14.mvn.hibernate.Entity.EmployeeWithCheckConstraint;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import javax.annotation.processing.Generated;

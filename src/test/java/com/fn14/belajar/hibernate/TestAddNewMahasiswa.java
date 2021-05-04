@@ -5,9 +5,9 @@
  */
 package com.fn14.belajar.hibernate;
 
-import com.fn14.belajar.hibernate.Config.HibernateConfiguration;
-import com.fn14.belajar.hibernate.Dao.MahasiswaDao;
-import com.fn14.belajar.hibernate.Entity.Mahasiswa;
+import com.fn14.mvn.hibernate.Config.HibernateConfiguration;
+import com.fn14.mvn.hibernate.Dao.MahasiswaDao;
+import com.fn14.mvn.hibernate.Entity.Mahasiswa;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import junit.framework.TestCase;

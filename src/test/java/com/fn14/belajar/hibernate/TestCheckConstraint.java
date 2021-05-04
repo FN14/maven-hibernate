@@ -5,9 +5,9 @@
  */
 package com.fn14.belajar.hibernate;
 
-import com.fn14.belajar.hibernate.Config.HibernateConfiguration;
-import com.fn14.belajar.hibernate.Dao.EmployeeWithCheckConstraintDao;
-import com.fn14.belajar.hibernate.Entity.EmployeeWithCheckConstraint;
+import com.fn14.mvn.hibernate.Config.HibernateConfiguration;
+import com.fn14.mvn.hibernate.Dao.EmployeeWithCheckConstraintDao;
+import com.fn14.mvn.hibernate.Entity.EmployeeWithCheckConstraint;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;

@@ -1,6 +1,6 @@
 package com.fn14.belajar.hibernate;
 
-import com.fn14.belajar.hibernate.Config.HibernateConfiguration;
+import com.fn14.mvn.hibernate.Config.HibernateConfiguration;
 import junit.framework.TestCase;
 import org.hibernate.Session;
 

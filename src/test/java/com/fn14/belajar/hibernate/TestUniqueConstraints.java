@@ -5,9 +5,9 @@
  */
 package com.fn14.belajar.hibernate;
 
-import com.fn14.belajar.hibernate.Config.HibernateConfiguration;
-import com.fn14.belajar.hibernate.Dao.ClassRootWithUniqueConstraintsDao;
-import com.fn14.belajar.hibernate.Entity.ClassRootWithUniqueConstraints;
+import com.fn14.mvn.hibernate.Config.HibernateConfiguration;
+import com.fn14.mvn.hibernate.Dao.ClassRootWithUniqueConstraintsDao;
+import com.fn14.mvn.hibernate.Entity.ClassRootWithUniqueConstraints;
 import java.time.LocalDateTime;
 import java.util.UUID;
 import junit.framework.TestCase;
