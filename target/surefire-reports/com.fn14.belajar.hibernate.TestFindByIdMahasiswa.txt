@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.fn14.belajar.hibernate.TestFindByIdMahasiswa
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.fn14.belajar.hibernate.TestFindByIdMahasiswa
-testFindById(com.fn14.belajar.hibernate.TestFindByIdMahasiswa)  Time elapsed: 0.004 s  <<< FAILURE!
-junit.framework.AssertionFailedError: object mahasiswa not null
-	at com.fn14.belajar.hibernate.TestFindByIdMahasiswa.testFindById(TestFindByIdMahasiswa.java:43)
-

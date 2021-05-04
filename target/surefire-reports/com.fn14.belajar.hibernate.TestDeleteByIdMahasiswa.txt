@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.fn14.belajar.hibernate.TestDeleteByIdMahasiswa
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.fn14.belajar.hibernate.TestDeleteByIdMahasiswa
-testDeleteMahasiswa(com.fn14.belajar.hibernate.TestDeleteByIdMahasiswa)  Time elapsed: 0.013 s  <<< FAILURE!
-junit.framework.AssertionFailedError: object mahasiswa is present
-	at com.fn14.belajar.hibernate.TestDeleteByIdMahasiswa.testDeleteMahasiswa(TestDeleteByIdMahasiswa.java:45)
-
