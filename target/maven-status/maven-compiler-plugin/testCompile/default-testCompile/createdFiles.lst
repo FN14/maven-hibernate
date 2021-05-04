@@ -1,0 +1,7 @@
+com\fn14\belajar\hibernate\AppTest.class
+com\fn14\belajar\hibernate\TestAddNewMahasiswa.class
+com\fn14\belajar\hibernate\TestUniqueConstraints.class
+com\fn14\belajar\hibernate\TestDeleteByIdMahasiswa.class
+com\fn14\belajar\hibernate\TestUpdateMahasiswa.class
+com\fn14\belajar\hibernate\TestCheckConstraint.class
+com\fn14\belajar\hibernate\TestFindByIdMahasiswa.class

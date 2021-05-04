@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.fn14.belajar.hibernate.TestUniqueConstraints
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in com.fn14.belajar.hibernate.TestUniqueConstraints
+testInsertInValid(com.fn14.belajar.hibernate.TestUniqueConstraints)  Time elapsed: 0.003 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.fn14.belajar.hibernate.TestUniqueConstraints.testInsertInValid(TestUniqueConstraints.java:69)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.fn14.belajar.hibernate.TestUniqueConstraints.testInsertInValid(TestUniqueConstraints.java:69)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: duplicate key value violates unique constraint "un_kelas"
+  Detail: Key (name, th_angkatan)=(IPS 1, 1993) already exists.
+	at com.fn14.belajar.hibernate.TestUniqueConstraints.testInsertInValid(TestUniqueConstraints.java:69)
+
+testInsertValid(com.fn14.belajar.hibernate.TestUniqueConstraints)  Time elapsed: 0.003 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.fn14.belajar.hibernate.TestUniqueConstraints.testInsertValid(TestUniqueConstraints.java:44)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.fn14.belajar.hibernate.TestUniqueConstraints.testInsertValid(TestUniqueConstraints.java:44)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: duplicate key value violates unique constraint "un_kelas"
+  Detail: Key (name, th_angkatan)=(IPS 2, 2001) already exists.
+	at com.fn14.belajar.hibernate.TestUniqueConstraints.testInsertValid(TestUniqueConstraints.java:44)
+

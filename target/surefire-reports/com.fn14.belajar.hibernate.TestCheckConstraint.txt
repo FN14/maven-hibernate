@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.fn14.belajar.hibernate.TestCheckConstraint
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.711 s <<< FAILURE! - in com.fn14.belajar.hibernate.TestCheckConstraint
+testInsertInValid(com.fn14.belajar.hibernate.TestCheckConstraint)  Time elapsed: 6.568 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.fn14.belajar.hibernate.TestCheckConstraint.testInsertInValid(TestCheckConstraint.java:59)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.fn14.belajar.hibernate.TestCheckConstraint.testInsertInValid(TestCheckConstraint.java:59)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: new row for relation "employee_check" violates check constraint "employee_check_gaji_check"
+  Detail: Failing row contains (96369133-6048-4ce9-8383-cd75070b2584, admin, 2021-05-04 20:37:32.361284, IPS 1, 1500000, null, null).
+	at com.fn14.belajar.hibernate.TestCheckConstraint.testInsertInValid(TestCheckConstraint.java:59)
+

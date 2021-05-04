@@ -1,0 +1,14 @@
+com\fn14\belajar\hibernate\Repository\CrudRepository.class
+com\fn14\belajar\hibernate\Entity\Mahasiswa$MahasiswaBuilder.class
+com\fn14\belajar\hibernate\Entity\Mahasiswa.class
+com\fn14\belajar\hibernate\Entity\EmployeeWithCheckConstraint.class
+com\fn14\belajar\hibernate\Dao\MahasiswaDao.class
+com\fn14\belajar\hibernate\Entity\EmployeeWithCheckConstraint_.class
+com\fn14\belajar\hibernate\Entity\ClassRootWithUniqueConstraints_.class
+com\fn14\belajar\hibernate\App.class
+com\fn14\belajar\hibernate\Config\HibernateConfiguration.class
+com\fn14\belajar\hibernate\Dao\ClassRootWithUniqueConstraintsDao.class
+com\fn14\belajar\hibernate\Repository\ReadRepository.class
+com\fn14\belajar\hibernate\Entity\ClassRootWithUniqueConstraints.class
+com\fn14\belajar\hibernate\Dao\EmployeeWithCheckConstraintDao.class
+com\fn14\belajar\hibernate\Entity\Mahasiswa_.class
