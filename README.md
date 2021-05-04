@@ -4,6 +4,7 @@ Project create crud use hibernate maven
 tambahkan file hibernate.cfg.xml di src/main/resources
 isi nya :
 
+```markdown
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -47,3 +48,4 @@ and open the template in the editor.
         
     </session-factory>
 </hibernate-configuration>
+```
