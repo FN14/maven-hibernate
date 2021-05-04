@@ -38,7 +38,7 @@ public class TestFindByIdMahasiswa extends TestCase {
 //        init value
         this.session.beginTransaction();
 //        save data and then return auto generated id
-        Long mhsId = 1L;
+        Long mhsId = 2L;
         Optional<Mahasiswa> mhsOptional = this.dao.findById(mhsId);
         assertTrue("object mahasiswa not null", mhsOptional.isPresent());
         System.out.println("mahasiswa by id: {}" + mhsOptional.orElse(null));

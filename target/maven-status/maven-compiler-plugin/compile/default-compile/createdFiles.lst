@@ -1,4 +1,5 @@
 com\fn14\mvn\hibernate\Entity\ClassRootWithUniqueConstraints_.class
+com\fn14\mvn\hibernate\Entity\ClassSeqGen_.class
 com\fn14\mvn\hibernate\App.class
 com\fn14\mvn\hibernate\Entity\EmployeeWithCheckConstraint.class
 com\fn14\mvn\hibernate\Entity\ClassRootWithUniqueConstraints.class
@@ -9,6 +10,8 @@ com\fn14\mvn\hibernate\Config\HibernateConfiguration.class
 com\fn14\mvn\hibernate\Repository\ReadRepository.class
 com\fn14\mvn\hibernate\Entity\EmployeeWithCheckConstraint_.class
 com\fn14\mvn\hibernate\Dao\MahasiswaDao.class
+com\fn14\mvn\hibernate\Entity\ClassSeqGen.class
 com\fn14\mvn\hibernate\Dao\ClassRootWithUniqueConstraintsDao.class
 com\fn14\mvn\hibernate\Dao\EmployeeWithCheckConstraintDao.class
+com\fn14\mvn\hibernate\Dao\ClassSeqGenDao.class
 com\fn14\mvn\hibernate\Entity\Mahasiswa_.class

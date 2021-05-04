@@ -1,4 +1,5 @@
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Entity\ClassRootWithUniqueConstraints.java
+D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Entity\ClassSeqGen.java
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Config\HibernateConfiguration.java
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Repository\CrudRepository.java
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Dao\MahasiswaDao.java
@@ -7,4 +8,5 @@ D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Entity\Maha
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Repository\ReadRepository.java
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Dao\ClassRootWithUniqueConstraintsDao.java
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\App.java
+D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Dao\ClassSeqGenDao.java
 D:\SiteStudy\Java\mvn-hibernate\src\main\java\com\fn14\mvn\hibernate\Dao\EmployeeWithCheckConstraintDao.java

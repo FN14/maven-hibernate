@@ -5,9 +5,7 @@
  */
 package com.fn14.mvn.hibernate.Config;
 
-import com.fn14.mvn.hibernate.Entity.EmployeeWithCheckConstraint;
-import com.fn14.mvn.hibernate.Entity.Mahasiswa;
-import com.fn14.mvn.hibernate.Entity.ClassRootWithUniqueConstraints;
+import com.fn14.mvn.hibernate.Entity.*;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -33,7 +31,8 @@ public class HibernateConfiguration {
 //            TODO add your mapping here!
             metadataSources.addAnnotatedClass(Mahasiswa.class)
                     .addAnnotatedClass(ClassRootWithUniqueConstraints.class) 
-                    .addAnnotatedClass(EmployeeWithCheckConstraint.class);
+                    .addAnnotatedClass(EmployeeWithCheckConstraint.class)
+                    .addAnnotatedClass(ClassSeqGen.class);
                       
             ourSessionFactory = metadataSources.buildMetadata().buildSessionFactory();
 

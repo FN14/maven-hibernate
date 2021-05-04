@@ -5,3 +5,4 @@ D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestFindByI
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestUniqueConstraints.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestCheckConstraint.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestUpdateMahasiswa.java
+D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\sequence\TestClassSeqGen.java
