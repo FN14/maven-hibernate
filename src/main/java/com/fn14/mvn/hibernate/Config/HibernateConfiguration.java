@@ -34,7 +34,8 @@ public class HibernateConfiguration {
                     .addAnnotatedClass(EmployeeWithCheckConstraint.class)
                     .addAnnotatedClass(ClassSeqGen.class) 
                     .addAnnotatedClass(ClassUuidGen.class)
-                    .addAnnotatedClass(ClassEmbedded.class);
+                    .addAnnotatedClass(ClassEmbedded.class)
+                    .addAnnotatedClass(ClassForIdClassModel.class);
                       
             ourSessionFactory = metadataSources.buildMetadata().buildSessionFactory();
 
