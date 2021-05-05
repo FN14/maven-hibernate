@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.fn14.mvn.hibernate.sequence;
+package com.fn14.mvn.hibernate.generator;
 
 import com.fn14.mvn.hibernate.Config.HibernateConfiguration;
-import com.fn14.mvn.hibernate.Dao.ClassSeqGenDao;
-import com.fn14.mvn.hibernate.Entity.ClassSeqGen;
+import com.fn14.mvn.hibernate.Dao.ClassUuidGenDao;
+import com.fn14.mvn.hibernate.Entity.ClassUuidGen;
 import java.time.LocalDateTime;
 
 import junit.framework.TestCase;
@@ -22,20 +22,21 @@ import org.junit.Test;
  */
 @Slf4j
 
-public class TestClassSeqGen extends TestCase {
+public class TestClassUuidGen extends TestCase {
     private Session session;
-    private ClassSeqGenDao classSeqGen;
+    private ClassUuidGenDao classSeqGen;
     
     @Override
     protected void setUp() throws Exception{
         log.info("Init hibernate Session");
         this.session = HibernateConfiguration.getSession();
-        this.classSeqGen = new ClassSeqGenDao(session);
+        this.classSeqGen = new ClassUuidGenDao(session);
+        
     }
     
     @Test
     public void testInsertValid(){
-        ClassSeqGen classSG = ClassSeqGen.builder()
+        ClassUuidGen classSG = ClassUuidGen.builder()
                 .name("Muhammad Firmansyah")
                 .years(2021)
                 .CreatedBy("admin")
