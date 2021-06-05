@@ -1,5 +1,11 @@
+com\fn14\mvn\hibernate\AppTest.class
+com\fn14\mvn\hibernate\TestUpdateMahasiswa.class
+com\fn14\mvn\hibernate\TestUniqueConstraints.class
+com\fn14\mvn\hibernate\embedded\TestClassEmbedded.class
+com\fn14\mvn\hibernate\TestDeleteByIdMahasiswa.class
+com\fn14\mvn\hibernate\generator\TestClassSeqGen.class
+com\fn14\mvn\hibernate\generator\TestClassUuidGen.class
 com\fn14\mvn\hibernate\TestFindByIdMahasiswa.class
 com\fn14\mvn\hibernate\TestCheckConstraint.class
 com\fn14\mvn\hibernate\TestAddNewMahasiswa.class
-com\fn14\mvn\hibernate\TestUniqueConstraints.class
-com\fn14\mvn\hibernate\TestDeleteByIdMahasiswa.class
+com\fn14\mvn\hibernate\primaryKey\TestClassForIdClass.class

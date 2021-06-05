@@ -1,8 +1,11 @@
+D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\generator\TestClassSeqGen.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\AppTest.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestAddNewMahasiswa.java
+D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\primaryKey\TestClassForIdClass.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestDeleteByIdMahasiswa.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestFindByIdMahasiswa.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestUniqueConstraints.java
+D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\generator\TestClassUuidGen.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestCheckConstraint.java
 D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\TestUpdateMahasiswa.java
-D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\sequence\TestClassSeqGen.java
+D:\SiteStudy\Java\mvn-hibernate\src\test\java\com\fn14\mvn\hibernate\embedded\TestClassEmbedded.java
